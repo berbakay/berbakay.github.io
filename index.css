@@ -78,6 +78,7 @@ img{
 
 
 .section-heading h6 {
+    padding-top: 0.5rem;
     font-size: 1.6rem;
     font-weight: 300;
 }
@@ -433,7 +434,6 @@ header i{
 /*End timeline*/
 
 /*Start contact*/
-
 
 form{
     width: 70%;
