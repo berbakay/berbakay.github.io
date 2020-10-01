@@ -23,4 +23,10 @@ $(document).ready(function () {
         duration: 1800,
         once: true
     })
+
+    $('.landing-text i').on('click', function ()  {
+        $('html, body').animate({
+            scrollTop: $('.about').offset().top}, 'slow')
+    })
+
 })

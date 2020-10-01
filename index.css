@@ -152,7 +152,7 @@ li{
 }
 
 .menu-toggler.open {
-    transform: rotate(-45deg);
+    transform: rotate(-225deg);
 }
 
 .bar{
@@ -217,6 +217,11 @@ header i{
     padding-top: 5rem;
     animation: blinker 2s infinite;
     text-align: center;
+}
+
+.fa-chevron-down:hover {
+    padding-top: 4.5rem;
+    font-size: 2.5rem;
 }
 /*End header*/
 
@@ -512,11 +517,8 @@ button:hover{
     0%{
         box-shadow: 0 0 0 0 #000000;
     }
-    70%{
-        box-shadow: 0 0 0 2rem rgba(253,87,191, 0);
-    }
     100%{
-        box-shadow: 0 0 0 0 rgba(253,87,191, 0);
+        box-shadow: 0 0 0 2rem rgba(253,87,191, 0);
     }
 }
 
@@ -539,7 +541,7 @@ button:hover{
 
 /*Start media queries*/
 @media screen and (max-width: 768px) {
-    .landing-text h1 {
+    .landing-text  .txt-rotate{
         font-size: 15rem;
     }
 
@@ -594,6 +596,10 @@ button:hover{
     html {
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    .landing-text  .txt-rotate{
+        font-size: 8rem;
     }
 
 
@@ -661,5 +667,27 @@ button:hover{
         border-left: 1rem;
     }
 
+}
+
+@media screen and (max-width: 320px) {
+    .landing-text .txt-rotate {
+        font-size: 6rem;
+    }
+
+    .timeline ul{
+        margin: 0 0 0 8rem;
+    }
+
+    .timeline .date h1{
+        margin-left: -3rem;
+        margin-right: -5rem;
+        font-size: 1rem;
+    }
+
+    .timeline p{
+        margin-left: -3rem;
+        margin-right: -5rem;
+        font-size: 1rem;
+    }
 }
 /*End media queries*/
