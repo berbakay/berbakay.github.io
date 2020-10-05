@@ -7,7 +7,7 @@
 
 html{
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     color: #111;
 }
 
@@ -124,7 +124,7 @@ li{
 }
 
 .nav-link{
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: sans-serif;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -200,7 +200,7 @@ li{
 
 .txt-rotate {
     background-color: transparent;
-	font-family: "The Historis Demo", sans-serif;
+	font-family: sans-serif;
 	margin-top: -10px;
 	color: #9b9b9b;
 	font-size: 20rem;
