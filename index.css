@@ -521,7 +521,10 @@ button:hover{
     0%{
         box-shadow: 0 0 0 0 #000000;
     }
-    100%{
+    70%{
+        box-shadow: 0 0 0 2rem rgba(253,87,191, 0);
+    }
+    100% {
         box-shadow: 0 0 0 2rem rgba(253,87,191, 0);
     }
 }
@@ -653,10 +656,18 @@ button:hover{
 
     .timeline p{
         font-size: 1.6rem;
+        margin-left: -3rem;
+        margin-right: -5rem;
     }
 
     .timeline .date::before {
         font-size: 1.4rem;
+    }
+
+    .timeline .date h1{
+        margin-left: -3rem;
+        margin-right: -5rem;
+        font-size: 1rem;
     }
 
     form{
@@ -674,6 +685,15 @@ button:hover{
 }
 
 @media screen and (max-width: 320px) {
+
+    .about p {
+        font-size: 1.5rem;
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
     .landing-text .txt-rotate {
         font-size: 6rem;
     }
@@ -692,6 +712,10 @@ button:hover{
         margin-left: -3rem;
         margin-right: -5rem;
         font-size: 1rem;
+    }
+
+    .copyright {
+        width: 100%;
     }
 }
 /*End media queries*/
