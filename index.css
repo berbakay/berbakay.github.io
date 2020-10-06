@@ -11,6 +11,11 @@ html{
     color: #111;
 }
 
+html.open {
+    height: 100%;
+    overflow: hidden;
+}
+
 body{
     width: 100%;
     height: 100%;
@@ -154,6 +159,7 @@ li{
 
 .menu-toggler.open {
     transform: rotate(-225deg);
+    position: fixed;
 }
 
 .bar{
