@@ -9,6 +9,7 @@ $(document).ready(function () {
         $(this).toggleClass('open');
         $('.menu-toggler').removeClass('open');
         $('.top-nav').removeClass('open');
+        $('html').removeClass('open');
     });
 
     $('nav a[href*="#"]').on('click', function () {
