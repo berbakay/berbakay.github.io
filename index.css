@@ -281,6 +281,10 @@ header i{
     color: #38a1f3
 }
 
+.fa-twitch:hover{
+    color: #6441a5;
+}
+
 .fa-github-square:hover{
     color:#d73a49
 }
@@ -372,6 +376,17 @@ header i{
 
 .portfolio-description .cta{
     display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #000000;
+    border-bottom: 1px solid black;
+
+}
+
+.portfolio-description .cta-app{
+    display: inline;
+    margin-right: 1rem;
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
