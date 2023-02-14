@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <script src="https://kit.fontawesome.com/d3ee17a1f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <h1>Rick Kay</h1>
+    <div class="subtitle">
+        <p>My name is Rick, and I am a software engineer based in Manchester, UK.
+            Please feel free to get in touch via any of the channels below. 
+        </p>
+    </div>
+    <div class="socials">
+        <ul class="nav-list"> 
+            <li>
+               <a href="https://github.com/berbakay" class="icon-link">
+                <i class="fa-brands fa-github"></i>
+               </a>
+               <p>Github</p>
+            </li>
+            <li>
+                <a href="https://github.com/berbakay">
+                    <i class="fa-brands fa-mastodon"></i>
+                </a>
+                <p>Mastodon</p>
+             </li>
+             <li>
+                <a href="https://github.com/berbakay">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <p>linkedIn</p>
+             </li>
+        </ul>
+    </div>
+    <nav>
+        <a href="/index">Home</a>
+        <a href="/experience">Experience</a>
+        <a href="/projects">Projects</a>
+        <a href="/about">About</a>
+        </a>
+    </nav>
+    </header>
+    <main>
+        <div class="experience">
+            <h2>Dematic  - Software Engineer</h2>
+             <a>Dec 2020 - Now</a>
+            <p> With a focus on embedded systems for warehouses, I have honed my skills in C programming and Linux operations. 
+                I have also gained experience in utilizing in-house testing frameworks 
+                and following release protocols to ensure high-quality product delivery. My work focuses on specific processes
+                within the warehouse and requires me to have detailed knowledge on these processes and how they interact with other
+                areas of the warehouse.
+                My role also includes regular customer interaction, 
+                demonstrating my strong communication and organizational skills. 
+            </p>
+        </div>
+        <div class="experience">
+            <h2>Northcoders - Trainee Software Engineer</h2>
+            <a>Aug 2020 - Nov 2020 </a>
+            <p>A 14-week intensive coding bootcamp 
+                where I was able to develop my coding skills 
+                from zero experience to a work-ready full-stack developer. 
+                I learned the technologies including 
+                JavaScript, Node, and React 
+                and was able to apply these skills to real-world projects, 
+                showcasing my work-ready abilities</p>
+        </div>
+        <div class="experience">
+            <h2>THG - Licensing Manager </h2>
+            <a>Jul 2018 - July 2020</a>
+            <p>Managed a portfolio of brand partnerships working with some of the biggest companies in the entertainment industry 
+                including Viacom, Sega and Warner Bros.</p>
+        </div>
+    </main>
+</body>
+</html>

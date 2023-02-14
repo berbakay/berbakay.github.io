@@ -1,0 +1,148 @@
+
+:root{
+    color-scheme: light dark;
+}
+
+html body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 12pt;
+    font-family: -apple-system, system-ui, verdana, sans-serif;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    display: block;
+    font-size: 12em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.socials {
+    font-size: 7.5rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.socials li {
+    margin: 0 2rem;
+    height: 100%;
+}
+
+.socials li p {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+nav {
+    border-bottom: 8px solid hsl(213, 32.1%, 85.3% );
+    border-top: 8px solid hsl(213, 32.1%, 85.3% );
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+.profile-img img {
+    border-radius: 50%;
+    border: 5px solid;
+    width: 80%;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.experience h2 {
+    font-size: 3rem;
+    font-weight:lighter;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience p {
+    text-align: justify;
+}
+
+.portfolio-img {
+    text-align: center;
+}
+
+.portfolio-img {
+    max-width: 100%;
+}
+.portfolio-img img{
+    border-radius: 50%;
+    border: 5px solid;
+    width: 80%
+}
+
+@media( prefers-color-scheme: dark ) {
+    nav a {
+        color: hsl(213, 64.3%, 72.0%);
+    }
+
+    .fa-github {
+        color: #e8eaea;
+    }
+    .fa-linkedin {
+        color: #0072b1;
+    }
+
+    .fa-mastodon {
+        color: #6364ff;
+    }
+
+    .subtitle {
+        color: #888;
+    }
+
+    .socials li p {
+        color: #888
+    }
+
+    h2 {
+        color: hsl(213, 64.3%, 72.0%);
+    }
+
+    .experience a {
+        color: #888;
+    }
+}

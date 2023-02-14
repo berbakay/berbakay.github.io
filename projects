@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <script src="https://kit.fontawesome.com/d3ee17a1f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <h1>Rick Kay</h1>
+    <div class="subtitle">
+        <p>My name is Rick, and I am a software engineer based in Manchester, UK.
+            Please feel free to get in touch via any of the channels below. 
+        </p>
+    </div>
+    <div class="socials">
+        <ul class="nav-list"> 
+            <li>
+               <a href="https://github.com/berbakay" class="icon-link">
+                <i class="fa-brands fa-github"></i>
+               </a>
+               <p>Github</p>
+            </li>
+            <li>
+                <a href="https://github.com/berbakay">
+                    <i class="fa-brands fa-mastodon"></i>
+                </a>
+                <p>Mastodon</p>
+             </li>
+             <li>
+                <a href="https://github.com/berbakay">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <p>linkedIn</p>
+             </li>
+        </ul>
+    </div>
+    <nav>
+        <a href="/index">Home</a>
+        <a href="/experience">Experience</a>
+        <a href="/projects">Projects</a>
+        <a href="/about">About</a>
+        </a>
+    </nav>
+    </header>
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <h1>This Website</h1>
+            <div class="portfolio-img">
+                <img src="../images/website-4.png" alt="website screenshot">
+            </div>
+                <p>
+                    I created this website as one of my first front-end projects. 
+                    Using HTML and CSS, I've created what I think is good looking, easy to use, website.
+                </p>
+                <a href="https://github.com/berbakay/berbakay.github.io" class="cta">View Git Repo</a>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
+                <h1>Simpsons API</h1>
+                <div class="portfolio-img has-margin-left" data-aos="fade-in" data-aos-delay="600">
+                    <img src="../images/Thinking_Homer.png" alt="homer thinking">
+                </div>
+                <p>
+                    A custom-built API using JavaScript, Express, Knex and PSQL. Hosting and Front end coming soon!
+                </p>
+                <a href="https://github.com/berbakay/simpsons_data" class="cta-app">View Git Repo</a>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-description" data-aos="fade-in" data-aos-delay="300">
+                <h1>Bonanza!</h1>
+                <div class="portfolio-img has-margin-right" data-aos="fade-in" data-aos-delay="600">
+                    <img src="../images/Screenshot 2023-02-14 at 19.44.20.png" alt="n c news screenshot">
+                </div>
+                <p>
+                    A command line program that returns predictions for the upcoming 
+                    premier league fixtures. It will predict Home win, Away win or Draw
+                    and rank the games from most likely to least likely.
+                </p>
+                <a href="https://github.com/berbakay/rk-nc-news" class="cta">View Git Repo</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
