@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="../../index.css"/>
     <script src="https://kit.fontawesome.com/d3ee17a1f4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Rick Kay</h1>
+        <h1><a href="/">Rick Kay</a></h1>
         <div class="subtitle">
             <p>My name is Rick, and I am a software engineer based in Manchester, UK.
                 Please feel free to get in touch via any of the channels below. 
@@ -41,22 +41,30 @@
             </a>
         </nav>
     </header>
-    <main>
-        <div class="profile-img">
-            <img src="../images/me.jpg" alt="me and rex">
-        </div>
-        <article>
-            Hi, my name is Rick and I love solving problems. 
-            From crosswords through to DIY, 
-            I love working out how to get from A to B and then implementing that solution. 
-            After 7 years working in consumer products and business development 
-            I decided to make the switch to programming as 
-            it will allow me to make a career out of solving problems 
-            and to one day make a positive impact on the world. 
-            Please take a look around my website and get in touch to discuss anything 
-            from coding through to video games, films, football...
-        </article>
-    </main>
+    <div class="post-list">
+        <ul>
+        {% for post in paginator.posts %}
+          <li>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.content }}
+          </li>
+        {% endfor %}
+        </ul>
+    </div>
+    {% if paginator.total_pages > 1 %}
+     <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+     </ul>
+   {% endif %}
     <footer>
         <p>© Rick Kay 2023</p>
     </footer>
