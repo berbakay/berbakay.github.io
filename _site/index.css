@@ -6,13 +6,10 @@
 html body {
     max-width: 100%;
     overflow-x: hidden;
-}
-
-body {
+    margin: 0;
     font-size: 12pt;
-    font-family: -apple-system, system-ui, verdana, sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
     margin: auto;
-    overflow-x: hidden;
 }
 
 header {
@@ -24,11 +21,15 @@ header h1 {
     font-size: 12em;
     margin-top: 10px;
     margin-bottom: 0px;
+    color: black;
 }
 
 header h1 a {
     text-decoration: none;
+    color: black;
+    font-size: 10rem;
 }
+
 .subtitle {
     width: 70%;
     margin: 0 auto;
@@ -50,11 +51,13 @@ header h1 a {
 .socials li {
     margin: 0 2rem;
     height: 100%;
+    color: black;
 }
 
 .socials li p {
     font-size: 2rem;
     margin-top: 0;
+    
 }
 
 nav {
@@ -72,17 +75,22 @@ nav a {
     font-size: 2.5rem;
     text-decoration: none;
     display: inline-block;
+    color: rgb(0, 131, 255);
+}
+
+.fa-github {
+    color: #171515;
+}
+.fa-linkedin {
+    color: #0072b1;
+}
+
+.fa-mastodon {
+    color: #6364ff;
 }
 
 .profile-img {
     text-align: center;
-}
-
-article {
-    text-align: center;
-}
-
-.profile-img {
     padding: 30px;
 }
 
@@ -92,6 +100,10 @@ article {
     width: 80%;
 }
 
+article {
+    text-align: center;
+}
+
 main {
     width: 90%;
     margin: auto;
@@ -99,10 +111,11 @@ main {
 
 h2 {
     font-size: 3rem;
-    font-weight:lighter;
     margin-bottom: 0;
     display: flex;
     flex-wrap: wrap;
+    color:rgb(0, 131, 255);
+    font-weight: normal;
 }
 
 .experience p {
@@ -159,7 +172,8 @@ footer p {
 
 .post-list ul li h2 a {
    text-decoration: none;
-   color: black;
+   color: rgb(0, 131, 255);
+   font-weight: normal;
 }
 
 .pager {
@@ -175,6 +189,8 @@ footer p {
 
 .next a {
     text-decoration: none;
+    color: rgb(0, 131, 255);
+    font-weight: normal;
 }
 
 .previous {
@@ -221,6 +237,10 @@ footer p {
         color: #888;
     }
 
+    .experience {
+        color:rgb(0, 131, 255);
+    }
+
     footer {
         color: #888;
     }
@@ -229,22 +249,4 @@ footer p {
         color: hsl(213, 64.3%, 72.0%);
      }
 
-}
-
-@media screen and (min-width: 750px) {
-    .experience p {
-        font-size: 2rem;
-    }
-
-    .post-list {
-        font-size: 2rem;
-    }
-
-    .portfolio-item p {
-        font-size: 2rem;
-    }
-
-    article {
-        font-size: 2rem;
-    }
 }
